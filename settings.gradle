@@ -1,2 +1,11 @@
 include ':app'
 rootProject.name = "QQThemePicker"
+
+include ':picker'
+project(':picker').projectDir = new File('picker')
+
+include ':wheelview'
+project(':wheelview').projectDir = new File('wheelview')
+
+include ':popup'
+project(':popup').projectDir = new File('popup')
